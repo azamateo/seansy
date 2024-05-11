@@ -7,23 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B79E8BB2E4CFAE1C5546C15 /* Pods_KinoKZ_APP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7D19FB8584B8A53F4A35F2 /* Pods_KinoKZ_APP.framework */; };
+		7217CFC22BE6DC3700E17789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7217CFC12BE6DC3700E17789 /* Main.storyboard */; };
+		7217CFE22BE6DD3A00E17789 /* MoviesCollectionViewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7217CFDD2BE6DD3A00E17789 /* MoviesCollectionViewTableCell.swift */; };
+		7217CFE32BE6DD3A00E17789 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7217CFDE2BE6DD3A00E17789 /* HeroHeaderUIView.swift */; };
+		7217CFE42BE6DD3A00E17789 /* MoviesTitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7217CFDF2BE6DD3A00E17789 /* MoviesTitleCollectionViewCell.swift */; };
+		7217CFE52BE6DD3A00E17789 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7217CFE02BE6DD3A00E17789 /* TitleTableViewCell.swift */; };
+		7217CFE72BE6DE2500E17789 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7217CFE62BE6DE2500E17789 /* MainTabBarViewController.swift */; };
+		7217CFEB2BE6E41400E17789 /* MoviePreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7217CFEA2BE6E41400E17789 /* MoviePreviewController.swift */; };
+		7217CFEF2BE7017500E17789 /* EventsCollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7217CFEE2BE7017500E17789 /* EventsCollectionViewTableViewCell.swift */; };
+		7217CFF12BE705A500E17789 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7217CFF02BE705A500E17789 /* EventsViewController.swift */; };
+		7217CFF32BE7086100E17789 /* HeroHeaderUIViewEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7217CFF22BE7086100E17789 /* HeroHeaderUIViewEvents.swift */; };
+		7217CFF52BE70AED00E17789 /* EventTitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7217CFF42BE70AED00E17789 /* EventTitleCollectionViewCell.swift */; };
+		7217CFF72BE71B1100E17789 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7217CFF62BE71B1100E17789 /* YoutubeSearchResponse.swift */; };
+		7217CFF92BE71BE400E17789 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7217CFF82BE71BE400E17789 /* TitlePreviewViewModel.swift */; };
+		7217CFFB2BE76E3500E17789 /* SessionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7217CFFA2BE76E3400E17789 /* SessionsModel.swift */; };
+		7217CFFD2BE7772C00E17789 /* HallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7217CFFC2BE7772C00E17789 /* HallModel.swift */; };
+		7217CFFF2BE77B5F00E17789 /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7217CFFE2BE77B5F00E17789 /* SessionService.swift */; };
+		7217D0022BE77B8D00E17789 /* SessionsEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7217D0012BE77B8D00E17789 /* SessionsEndPoint.swift */; };
 		72BD2CF12BD68D4D00001069 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2CF02BD68D4D00001069 /* AppDelegate.swift */; };
 		72BD2CF32BD68D4D00001069 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2CF22BD68D4D00001069 /* SceneDelegate.swift */; };
-		72BD2CF52BD68D4D00001069 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2CF42BD68D4D00001069 /* ViewController.swift */; };
-		72BD2CF82BD68D4D00001069 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 72BD2CF72BD68D4D00001069 /* Base */; };
+		72BD2CF52BD68D4D00001069 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2CF42BD68D4D00001069 /* MainViewController.swift */; };
 		72BD2CFA2BD68D5000001069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72BD2CF92BD68D5000001069 /* Assets.xcassets */; };
 		72BD2CFD2BD68D5000001069 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 72BD2CFC2BD68D5000001069 /* Base */; };
+		72BD2D092BD691AC00001069 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D082BD691AC00001069 /* HTTPRequest.swift */; };
+		72BD2D0B2BD691FE00001069 /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D0A2BD691FE00001069 /* HTTPResponse.swift */; };
+		72BD2D0D2BD693DC00001069 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D0C2BD693DC00001069 /* HTTPClient.swift */; };
+		72BD2D0F2BD6941000001069 /* KinoKZApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D0E2BD6941000001069 /* KinoKZApiClient.swift */; };
+		72BD2D112BD6952800001069 /* KinoKZApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D102BD6952800001069 /* KinoKZApiError.swift */; };
+		72BD2D132BD6966200001069 /* KinoKZApiError+HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D122BD6966200001069 /* KinoKZApiError+HTTPStatusCode.swift */; };
+		72BD2D162BD696E600001069 /* KinoKZStatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D152BD696E600001069 /* KinoKZStatusResponse.swift */; };
+		72BD2D182BD6973C00001069 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D172BD6973C00001069 /* Serializer.swift */; };
+		72BD2D1D2BD697DC00001069 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D1C2BD697DC00001069 /* APIClient.swift */; };
+		72BD2D1F2BD6980700001069 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D1E2BD6980700001069 /* Endpoint.swift */; };
+		72BD2D222BD6B55300001069 /* CinemasService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D212BD6B55300001069 /* CinemasService.swift */; };
+		72BD2D242BD6B5BB00001069 /* KinoKZConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D232BD6B5BB00001069 /* KinoKZConfiguration.swift */; };
+		72BD2D262BD6B60F00001069 /* KinoKZFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D252BD6B60F00001069 /* KinoKZFactory.swift */; };
+		72BD2D2A2BD6B79C00001069 /* KinoKZJSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D292BD6B79C00001069 /* KinoKZJSONSerializer.swift */; };
+		72BD2D2D2BD6B89200001069 /* URLSessionHTTPClientAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D2C2BD6B89200001069 /* URLSessionHTTPClientAdapter.swift */; };
+		72BD2D302BD6BC1000001069 /* URL+KinoKZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D2F2BD6BC1000001069 /* URL+KinoKZ.swift */; };
+		72BD2D322BD6BF6700001069 /* CinemasModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D312BD6BF6700001069 /* CinemasModel.swift */; };
+		72BD2D362BD6CEF400001069 /* CinemasEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D352BD6CEF400001069 /* CinemasEndPoint.swift */; };
+		72BD2D382BD6D1E100001069 /* KinoKZError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D372BD6D1E100001069 /* KinoKZError.swift */; };
+		72BD2D3A2BD6D28900001069 /* KinoKZError+KinoKZApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D392BD6D28900001069 /* KinoKZError+KinoKZApiError.swift */; };
+		72BD2D3F2BD7EA1600001069 /* JSONDecoder+KinoKZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D3E2BD7EA1600001069 /* JSONDecoder+KinoKZ.swift */; };
+		72BD2D412BD7EAAA00001069 /* JSONEncoder+KinoKZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D402BD7EAAA00001069 /* JSONEncoder+KinoKZ.swift */; };
+		72BD2D452BDE493500001069 /* MoviesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D442BDE493500001069 /* MoviesService.swift */; };
+		72BD2D472BDE494200001069 /* MoviesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D462BDE494200001069 /* MoviesEndpoint.swift */; };
+		72BD2D4A2BDE4B9300001069 /* MoviesRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D492BDE4B9300001069 /* MoviesRequestModel.swift */; };
+		72BD2D4C2BDE52AA00001069 /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D4B2BDE52AA00001069 /* MoviesModel.swift */; };
+		72BD2D4E2BDE6FB700001069 /* EventsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D4D2BDE6FB700001069 /* EventsService.swift */; };
+		72BD2D502BDE6FCD00001069 /* EventsEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D4F2BDE6FCD00001069 /* EventsEndPoint.swift */; };
+		72BD2D522BDE71A300001069 /* EventsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BD2D512BDE71A300001069 /* EventsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C818668AC4713B0F99F92E7 /* Pods-KinoKZ_APP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinoKZ_APP.release.xcconfig"; path = "Target Support Files/Pods-KinoKZ_APP/Pods-KinoKZ_APP.release.xcconfig"; sourceTree = "<group>"; };
+		6D7D19FB8584B8A53F4A35F2 /* Pods_KinoKZ_APP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KinoKZ_APP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7217CFC12BE6DC3700E17789 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7217CFDD2BE6DD3A00E17789 /* MoviesCollectionViewTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesCollectionViewTableCell.swift; sourceTree = "<group>"; };
+		7217CFDE2BE6DD3A00E17789 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		7217CFDF2BE6DD3A00E17789 /* MoviesTitleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesTitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		7217CFE02BE6DD3A00E17789 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		7217CFE62BE6DE2500E17789 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		7217CFEA2BE6E41400E17789 /* MoviePreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviePreviewController.swift; sourceTree = "<group>"; };
+		7217CFEE2BE7017500E17789 /* EventsCollectionViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsCollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		7217CFF02BE705A500E17789 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		7217CFF22BE7086100E17789 /* HeroHeaderUIViewEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIViewEvents.swift; sourceTree = "<group>"; };
+		7217CFF42BE70AED00E17789 /* EventTitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventTitleCollectionViewCell.swift; path = ../../../../../../../../../../../Applications/EventTitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		7217CFF62BE71B1100E17789 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		7217CFF82BE71BE400E17789 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
+		7217CFFA2BE76E3400E17789 /* SessionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsModel.swift; sourceTree = "<group>"; };
+		7217CFFC2BE7772C00E17789 /* HallModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallModel.swift; sourceTree = "<group>"; };
+		7217CFFE2BE77B5F00E17789 /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		7217D0012BE77B8D00E17789 /* SessionsEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsEndPoint.swift; sourceTree = "<group>"; };
 		72BD2CED2BD68D4D00001069 /* KinoKZ_APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinoKZ_APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BD2CF02BD68D4D00001069 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72BD2CF22BD68D4D00001069 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72BD2CF42BD68D4D00001069 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		72BD2CF72BD68D4D00001069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72BD2CF42BD68D4D00001069 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		72BD2CF92BD68D5000001069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72BD2CFC2BD68D5000001069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72BD2CFE2BD68D5000001069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72BD2D082BD691AC00001069 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		72BD2D0A2BD691FE00001069 /* HTTPResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResponse.swift; sourceTree = "<group>"; };
+		72BD2D0C2BD693DC00001069 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		72BD2D0E2BD6941000001069 /* KinoKZApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoKZApiClient.swift; sourceTree = "<group>"; };
+		72BD2D102BD6952800001069 /* KinoKZApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoKZApiError.swift; sourceTree = "<group>"; };
+		72BD2D122BD6966200001069 /* KinoKZApiError+HTTPStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KinoKZApiError+HTTPStatusCode.swift"; sourceTree = "<group>"; };
+		72BD2D152BD696E600001069 /* KinoKZStatusResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoKZStatusResponse.swift; sourceTree = "<group>"; };
+		72BD2D172BD6973C00001069 /* Serializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serializer.swift; sourceTree = "<group>"; };
+		72BD2D1C2BD697DC00001069 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		72BD2D1E2BD6980700001069 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		72BD2D212BD6B55300001069 /* CinemasService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemasService.swift; sourceTree = "<group>"; };
+		72BD2D232BD6B5BB00001069 /* KinoKZConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoKZConfiguration.swift; sourceTree = "<group>"; };
+		72BD2D252BD6B60F00001069 /* KinoKZFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoKZFactory.swift; sourceTree = "<group>"; };
+		72BD2D292BD6B79C00001069 /* KinoKZJSONSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoKZJSONSerializer.swift; sourceTree = "<group>"; };
+		72BD2D2C2BD6B89200001069 /* URLSessionHTTPClientAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientAdapter.swift; sourceTree = "<group>"; };
+		72BD2D2F2BD6BC1000001069 /* URL+KinoKZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+KinoKZ.swift"; sourceTree = "<group>"; };
+		72BD2D312BD6BF6700001069 /* CinemasModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemasModel.swift; sourceTree = "<group>"; };
+		72BD2D352BD6CEF400001069 /* CinemasEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemasEndPoint.swift; sourceTree = "<group>"; };
+		72BD2D372BD6D1E100001069 /* KinoKZError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinoKZError.swift; sourceTree = "<group>"; };
+		72BD2D392BD6D28900001069 /* KinoKZError+KinoKZApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KinoKZError+KinoKZApiError.swift"; sourceTree = "<group>"; };
+		72BD2D3E2BD7EA1600001069 /* JSONDecoder+KinoKZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+KinoKZ.swift"; sourceTree = "<group>"; };
+		72BD2D402BD7EAAA00001069 /* JSONEncoder+KinoKZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONEncoder+KinoKZ.swift"; sourceTree = "<group>"; };
+		72BD2D442BDE493500001069 /* MoviesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesService.swift; sourceTree = "<group>"; };
+		72BD2D462BDE494200001069 /* MoviesEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesEndpoint.swift; sourceTree = "<group>"; };
+		72BD2D492BDE4B9300001069 /* MoviesRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesRequestModel.swift; sourceTree = "<group>"; };
+		72BD2D4B2BDE52AA00001069 /* MoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesModel.swift; sourceTree = "<group>"; };
+		72BD2D4D2BDE6FB700001069 /* EventsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsService.swift; sourceTree = "<group>"; };
+		72BD2D4F2BDE6FCD00001069 /* EventsEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsEndPoint.swift; sourceTree = "<group>"; };
+		72BD2D512BDE71A300001069 /* EventsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsModel.swift; sourceTree = "<group>"; };
+		82F529FC35A1071C36AD0530 /* Pods-KinoKZ_APP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinoKZ_APP.debug.xcconfig"; path = "Target Support Files/Pods-KinoKZ_APP/Pods-KinoKZ_APP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +125,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B79E8BB2E4CFAE1C5546C15 /* Pods_KinoKZ_APP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E9A3609044F4A0FAEB7396D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82F529FC35A1071C36AD0530 /* Pods-KinoKZ_APP.debug.xcconfig */,
+				0C818668AC4713B0F99F92E7 /* Pods-KinoKZ_APP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		321DA075F1CA23CC72C2ED40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D7D19FB8584B8A53F4A35F2 /* Pods_KinoKZ_APP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7217CFE12BE6DD3A00E17789 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7217CFDE2BE6DD3A00E17789 /* HeroHeaderUIView.swift */,
+				7217CFF42BE70AED00E17789 /* EventTitleCollectionViewCell.swift */,
+				7217CFDF2BE6DD3A00E17789 /* MoviesTitleCollectionViewCell.swift */,
+				7217CFE02BE6DD3A00E17789 /* TitleTableViewCell.swift */,
+				7217CFDD2BE6DD3A00E17789 /* MoviesCollectionViewTableCell.swift */,
+				7217CFEE2BE7017500E17789 /* EventsCollectionViewTableViewCell.swift */,
+				7217CFF22BE7086100E17789 /* HeroHeaderUIViewEvents.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7217D0002BE77B7C00E17789 /* Sessions */ = {
+			isa = PBXGroup;
+			children = (
+				7217CFFE2BE77B5F00E17789 /* SessionService.swift */,
+				7217D0012BE77B8D00E17789 /* SessionsEndPoint.swift */,
+			);
+			path = Sessions;
+			sourceTree = "<group>";
+		};
 		72BD2CE42BD68D4D00001069 = {
 			isa = PBXGroup;
 			children = (
+				72BD2D232BD6B5BB00001069 /* KinoKZConfiguration.swift */,
+				72BD2D252BD6B60F00001069 /* KinoKZFactory.swift */,
 				72BD2CEF2BD68D4D00001069 /* KinoKZ_APP */,
 				72BD2CEE2BD68D4D00001069 /* Products */,
+				0E9A3609044F4A0FAEB7396D /* Pods */,
+				321DA075F1CA23CC72C2ED40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +195,123 @@
 		72BD2CEF2BD68D4D00001069 /* KinoKZ_APP */ = {
 			isa = PBXGroup;
 			children = (
+				72BD2D3B2BD6DA6100001069 /* Views */,
+				72BD2D2E2BD6BBDF00001069 /* Extensions */,
+				72BD2D2B2BD6B88100001069 /* Adapters */,
+				72BD2D1B2BD697CB00001069 /* Services */,
+				72BD2D142BD696C100001069 /* Models */,
+				72BD2D072BD6915900001069 /* Networking */,
 				72BD2CF02BD68D4D00001069 /* AppDelegate.swift */,
 				72BD2CF22BD68D4D00001069 /* SceneDelegate.swift */,
-				72BD2CF42BD68D4D00001069 /* ViewController.swift */,
-				72BD2CF62BD68D4D00001069 /* Main.storyboard */,
 				72BD2CF92BD68D5000001069 /* Assets.xcassets */,
 				72BD2CFB2BD68D5000001069 /* LaunchScreen.storyboard */,
 				72BD2CFE2BD68D5000001069 /* Info.plist */,
+				7217CFC12BE6DC3700E17789 /* Main.storyboard */,
 			);
 			path = KinoKZ_APP;
+			sourceTree = "<group>";
+		};
+		72BD2D072BD6915900001069 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				72BD2D082BD691AC00001069 /* HTTPRequest.swift */,
+				72BD2D0A2BD691FE00001069 /* HTTPResponse.swift */,
+				72BD2D0C2BD693DC00001069 /* HTTPClient.swift */,
+				72BD2D0E2BD6941000001069 /* KinoKZApiClient.swift */,
+				72BD2D102BD6952800001069 /* KinoKZApiError.swift */,
+				72BD2D122BD6966200001069 /* KinoKZApiError+HTTPStatusCode.swift */,
+				72BD2D172BD6973C00001069 /* Serializer.swift */,
+				72BD2D292BD6B79C00001069 /* KinoKZJSONSerializer.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		72BD2D142BD696C100001069 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72BD2D492BDE4B9300001069 /* MoviesRequestModel.swift */,
+				72BD2D152BD696E600001069 /* KinoKZStatusResponse.swift */,
+				72BD2D312BD6BF6700001069 /* CinemasModel.swift */,
+				72BD2D372BD6D1E100001069 /* KinoKZError.swift */,
+				72BD2D392BD6D28900001069 /* KinoKZError+KinoKZApiError.swift */,
+				72BD2D4B2BDE52AA00001069 /* MoviesModel.swift */,
+				72BD2D512BDE71A300001069 /* EventsModel.swift */,
+				7217CFF62BE71B1100E17789 /* YoutubeSearchResponse.swift */,
+				7217CFF82BE71BE400E17789 /* TitlePreviewViewModel.swift */,
+				7217CFFA2BE76E3400E17789 /* SessionsModel.swift */,
+				7217CFFC2BE7772C00E17789 /* HallModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72BD2D1B2BD697CB00001069 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7217D0002BE77B7C00E17789 /* Sessions */,
+				72BD2D432BDE491600001069 /* Events */,
+				72BD2D422BDE490600001069 /* Movies */,
+				72BD2D202BD6B53000001069 /* Cinemas */,
+				72BD2D1C2BD697DC00001069 /* APIClient.swift */,
+				72BD2D1E2BD6980700001069 /* Endpoint.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		72BD2D202BD6B53000001069 /* Cinemas */ = {
+			isa = PBXGroup;
+			children = (
+				72BD2D212BD6B55300001069 /* CinemasService.swift */,
+				72BD2D352BD6CEF400001069 /* CinemasEndPoint.swift */,
+			);
+			path = Cinemas;
+			sourceTree = "<group>";
+		};
+		72BD2D2B2BD6B88100001069 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				72BD2D2C2BD6B89200001069 /* URLSessionHTTPClientAdapter.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		72BD2D2E2BD6BBDF00001069 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				72BD2D2F2BD6BC1000001069 /* URL+KinoKZ.swift */,
+				72BD2D3E2BD7EA1600001069 /* JSONDecoder+KinoKZ.swift */,
+				72BD2D402BD7EAAA00001069 /* JSONEncoder+KinoKZ.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		72BD2D3B2BD6DA6100001069 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7217CFE12BE6DD3A00E17789 /* Views */,
+				72BD2CF42BD68D4D00001069 /* MainViewController.swift */,
+				7217CFE62BE6DE2500E17789 /* MainTabBarViewController.swift */,
+				7217CFEA2BE6E41400E17789 /* MoviePreviewController.swift */,
+				7217CFF02BE705A500E17789 /* EventsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72BD2D422BDE490600001069 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				72BD2D442BDE493500001069 /* MoviesService.swift */,
+				72BD2D462BDE494200001069 /* MoviesEndpoint.swift */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		72BD2D432BDE491600001069 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				72BD2D4D2BDE6FB700001069 /* EventsService.swift */,
+				72BD2D4F2BDE6FCD00001069 /* EventsEndPoint.swift */,
+			);
+			path = Events;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +321,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72BD2D012BD68D5000001069 /* Build configuration list for PBXNativeTarget "KinoKZ_APP" */;
 			buildPhases = (
+				0D10E4AB99D4FF3AAA5990BF /* [CP] Check Pods Manifest.lock */,
 				72BD2CE92BD68D4D00001069 /* Sources */,
 				72BD2CEA2BD68D4D00001069 /* Frameworks */,
 				72BD2CEB2BD68D4D00001069 /* Resources */,
+				269D4294CFA3845B284180F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +374,115 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7217CFC22BE6DC3700E17789 /* Main.storyboard in Resources */,
 				72BD2CFA2BD68D5000001069 /* Assets.xcassets in Resources */,
 				72BD2CFD2BD68D5000001069 /* Base in Resources */,
-				72BD2CF82BD68D4D00001069 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D10E4AB99D4FF3AAA5990BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KinoKZ_APP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		269D4294CFA3845B284180F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KinoKZ_APP/Pods-KinoKZ_APP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KinoKZ_APP/Pods-KinoKZ_APP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KinoKZ_APP/Pods-KinoKZ_APP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		72BD2CE92BD68D4D00001069 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72BD2CF52BD68D4D00001069 /* ViewController.swift in Sources */,
+				7217CFFD2BE7772C00E17789 /* HallModel.swift in Sources */,
+				7217CFEF2BE7017500E17789 /* EventsCollectionViewTableViewCell.swift in Sources */,
+				72BD2D302BD6BC1000001069 /* URL+KinoKZ.swift in Sources */,
+				7217CFE32BE6DD3A00E17789 /* HeroHeaderUIView.swift in Sources */,
+				72BD2D4C2BDE52AA00001069 /* MoviesModel.swift in Sources */,
+				72BD2D412BD7EAAA00001069 /* JSONEncoder+KinoKZ.swift in Sources */,
+				72BD2D4A2BDE4B9300001069 /* MoviesRequestModel.swift in Sources */,
+				72BD2CF52BD68D4D00001069 /* MainViewController.swift in Sources */,
+				7217CFE22BE6DD3A00E17789 /* MoviesCollectionViewTableCell.swift in Sources */,
+				72BD2D112BD6952800001069 /* KinoKZApiError.swift in Sources */,
+				72BD2D522BDE71A300001069 /* EventsModel.swift in Sources */,
+				72BD2D452BDE493500001069 /* MoviesService.swift in Sources */,
+				72BD2D132BD6966200001069 /* KinoKZApiError+HTTPStatusCode.swift in Sources */,
+				72BD2D472BDE494200001069 /* MoviesEndpoint.swift in Sources */,
+				7217CFE72BE6DE2500E17789 /* MainTabBarViewController.swift in Sources */,
+				72BD2D322BD6BF6700001069 /* CinemasModel.swift in Sources */,
+				72BD2D2D2BD6B89200001069 /* URLSessionHTTPClientAdapter.swift in Sources */,
+				72BD2D1F2BD6980700001069 /* Endpoint.swift in Sources */,
+				72BD2D092BD691AC00001069 /* HTTPRequest.swift in Sources */,
+				72BD2D3F2BD7EA1600001069 /* JSONDecoder+KinoKZ.swift in Sources */,
+				72BD2D382BD6D1E100001069 /* KinoKZError.swift in Sources */,
+				7217CFF52BE70AED00E17789 /* EventTitleCollectionViewCell.swift in Sources */,
+				7217CFF72BE71B1100E17789 /* YoutubeSearchResponse.swift in Sources */,
+				72BD2D162BD696E600001069 /* KinoKZStatusResponse.swift in Sources */,
+				7217CFF32BE7086100E17789 /* HeroHeaderUIViewEvents.swift in Sources */,
+				7217D0022BE77B8D00E17789 /* SessionsEndPoint.swift in Sources */,
+				72BD2D222BD6B55300001069 /* CinemasService.swift in Sources */,
+				72BD2D182BD6973C00001069 /* Serializer.swift in Sources */,
+				72BD2D502BDE6FCD00001069 /* EventsEndPoint.swift in Sources */,
+				72BD2D2A2BD6B79C00001069 /* KinoKZJSONSerializer.swift in Sources */,
+				72BD2D0D2BD693DC00001069 /* HTTPClient.swift in Sources */,
+				72BD2D0B2BD691FE00001069 /* HTTPResponse.swift in Sources */,
+				72BD2D242BD6B5BB00001069 /* KinoKZConfiguration.swift in Sources */,
+				7217CFE52BE6DD3A00E17789 /* TitleTableViewCell.swift in Sources */,
+				7217CFE42BE6DD3A00E17789 /* MoviesTitleCollectionViewCell.swift in Sources */,
 				72BD2CF12BD68D4D00001069 /* AppDelegate.swift in Sources */,
+				7217CFEB2BE6E41400E17789 /* MoviePreviewController.swift in Sources */,
+				7217CFF12BE705A500E17789 /* EventsViewController.swift in Sources */,
+				7217CFF92BE71BE400E17789 /* TitlePreviewViewModel.swift in Sources */,
+				72BD2D3A2BD6D28900001069 /* KinoKZError+KinoKZApiError.swift in Sources */,
+				72BD2D4E2BDE6FB700001069 /* EventsService.swift in Sources */,
+				7217CFFB2BE76E3500E17789 /* SessionsModel.swift in Sources */,
+				7217CFFF2BE77B5F00E17789 /* SessionService.swift in Sources */,
+				72BD2D262BD6B60F00001069 /* KinoKZFactory.swift in Sources */,
 				72BD2CF32BD68D4D00001069 /* SceneDelegate.swift in Sources */,
+				72BD2D0F2BD6941000001069 /* KinoKZApiClient.swift in Sources */,
+				72BD2D1D2BD697DC00001069 /* APIClient.swift in Sources */,
+				72BD2D362BD6CEF400001069 /* CinemasEndPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		72BD2CF62BD68D4D00001069 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				72BD2CF72BD68D4D00001069 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		72BD2CFB2BD68D5000001069 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,11 +615,14 @@
 		};
 		72BD2D022BD68D5000001069 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F529FC35A1071C36AD0530 /* Pods-KinoKZ_APP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22U3ZR6CW6;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KinoKZ_APP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,11 +645,14 @@
 		};
 		72BD2D032BD68D5000001069 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C818668AC4713B0F99F92E7 /* Pods-KinoKZ_APP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22U3ZR6CW6;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KinoKZ_APP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
